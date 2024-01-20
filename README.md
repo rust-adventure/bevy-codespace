@@ -27,3 +27,6 @@ The development experience of building an app in codespaces is generally worse t
 In my opinion: if you can develop locally, you should, even if you're targetting wasm.
 
 That said, this is a working development environment that can be a suitable replacement when the developer does not have control over their computer, such as computers that are controlled by a school system or are otherwise "locked down" in ways that make it awkward to install or run programs.
+
+> [!CAUTION]
+> The less resources you use to power the codespace, the longer compile times take in general. It works with the minimum cores available, but you will take awhile.
